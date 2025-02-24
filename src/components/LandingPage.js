@@ -1,10 +1,6 @@
 import React from 'react';
 
 function LandingPage({ onEnterMenu }) {
-  const handleARToggle = () => {
-    // Navigate to another site when AR toggle is clicked
-    window.location.href = "/ar-experience";
-  };
 
   return (
     <div className="landing-page">

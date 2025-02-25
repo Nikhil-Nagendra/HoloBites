@@ -1,21 +1,25 @@
 import React from 'react';
 
 function LandingPage({ onEnterMenu }) {
+  // const handleARToggle = () => {
+  //   // Navigate to another site when AR toggle is clicked
+  //   window.location.href = "/ar-experience";
+  // };
 
   return (
     <div className="landing-page">
       <div className="header">
         <div className="logo-container">
-          <img src="/final-logo.png" alt="HoloBites Logo" className="logo-image" style={{ width: '70px', height: '70px' }} /> 
+          <img src="/final-logo.png" alt="HoloBites Logo" className="logo-image" style={{ width: '60px', height: '60px' }} /> 
           
         </div>
-        <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide'}}>HoloBites
+        <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide', textAlign: 'center', flex: 1}}>HoloBites
           <div style={{fontSize: '12px', marginTop: '5px', fontFamily: 'Armagedo Wide'}}>"where tech meets food"</div>
         </h1>
         <button 
             className="ar-toggle-button"
             onClick={() => window.location.href = "https://player.onirix.com/exp/ldEDNz"}
-            style={{backgroundColor: 'white', color: 'black', borderRadius: '10px', padding: '10px'}}
+            style={{backgroundColor: 'white', color: 'black', borderRadius: '5px', padding: '5px', marginRight: '12px'}}
           >
             AR Mode
           </button>

@@ -7,8 +7,8 @@ function Cart({ cart, updateQuantity, removeFromCart, cartTotal, goBack, checkou
         <div className="back-button" onClick={goBack}>
           <span>&larr;</span>
         </div>
-        <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide',textAlign: 'center'}}>HoloBites
-         
+        <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide', textAlign: 'center', margin: '0 auto', width: '100%'}}>HoloBites
+          <div style={{fontSize: '12px', marginTop: '5px', fontFamily: 'Armagedo Wide', textAlign: 'center'}}>"where tech meets food"</div>
         </h1>
       </div>
       

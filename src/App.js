@@ -5,6 +5,7 @@ import CategoryMenu from './components/CategoryMenu';
 import ItemDetails from './components/ItemDetails';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
+import BotpressChat from './components/BotpressChat';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('landing');
@@ -278,8 +279,10 @@ function App() {
   return (
     <div className="app">
       {renderPage()}
+      <BotpressChat />
     </div>
   );
 }
+
 
 export default App;

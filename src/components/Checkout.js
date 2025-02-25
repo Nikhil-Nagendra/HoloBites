@@ -5,11 +5,11 @@ function Checkout({ orderTotal, goToMenu }) {
     <div className="checkout-page">
       <div className="header">
       <div className="logo-container">
-          <img src="/final-logo.png" alt="HoloBites Logo" className="logo-image" style={{ width: '70px', height: '70px' }} /> 
+          <img src="/final-logo.png" alt="HoloBites Logo" className="logo-image" style={{ width: '60px', height: '60px' }} /> 
           
         </div>
-      <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide',textAlign: 'center'}}>HoloBites
-          <div style={{fontSize: '12px', marginTop: '5px', fontFamily: 'Armagedo Wide'}}>"where tech meets food"</div>
+      <h1 className="logo" style={{fontSize: '30px', fontFamily: 'Armagedo Wide', textAlign: 'center', margin: '0 auto', width: '100%'}}>HoloBites
+          <div style={{fontSize: '12px', marginTop: '5px', fontFamily: 'Armagedo Wide', textAlign: 'center'}}>"where tech meets food"</div>
         </h1>
       </div>
       
